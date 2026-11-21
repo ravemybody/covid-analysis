@@ -1,13 +1,4 @@
 
-title: "Getting Started with Git and CI/CD"
-track: "Fundamentals"
-level: "Base"
-roles: ["Data Engineer", "Analytics Engineer", "DataOps Engineer"]
-duration: "8 assignments, ~1-3 hours each"
-cost: "Free"
-tools: ["Git", "GitHub", "GitHub Actions", "DuckDB", "Docker", "Docker Hub", "Make", "pre-commit", "sqlfmt"]
-status: "Ready"
----
 
 # Getting Started with Git and CI/CD
 
