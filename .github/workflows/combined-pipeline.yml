@@ -118,10 +118,11 @@ jobs:
             echo "tag=dev-${{ github.sha }}" >> $GITHUB_ENV
           fi
 
-      - name: Build Docker Image
-        run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/duckdb-data-analysis:${{ env.tag }} -f .docker/Dockerfile .
-
-      - name: Push Docker Image
-        run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/duckdb-data-analysis:${{ env.tag }}
+      - name: Build and push multi-platform image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: .docker/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: alyenafatianova/duckdb-data-analysis:${{ env.tag }}
