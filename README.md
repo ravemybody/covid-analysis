@@ -1,4 +1,4 @@
-01_git_and_ci_cd/.docker 01_git_and_ci_cd/images 01_git_and_ci_cd/queries 01_git_and_ci_cd/scripts 01_git_and_ci_cd/.gitignore 01_git_and_ci_cd/.pre-commit-config.yaml 01_git_and_ci_cd/covid_data.csv 01_git_and_ci_cd/makefile 01_git_and_ci_cd/README.md---
+
 title: "Getting Started with Git and CI/CD"
 track: "Fundamentals"
 level: "Base"
