@@ -1,5 +1,3 @@
-
-
 # Getting Started with Git and CI/CD
 
 ![Architecture](images/architecture.png)
